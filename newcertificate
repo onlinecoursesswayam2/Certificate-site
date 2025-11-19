@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Certificate</title>
+
+  <!-- Local CSS files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="css/home_page.css" rel="stylesheet" />
+
+  <style>
+    .certificate-container {
+      padding-top: 105px;
+      padding-bottom: 50px;
+    }
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .top-bar {
+        padding: 10px 0;
+      }
+      .navbar-brand img {
+        max-width: 100%;
+        height: auto;
+      }
+      .top-navigation {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-12 top-left">
+            <a class="navbar-brand" href="https://swayam.gov.in/">
+              <img src="img/swayam_logo.png" alt="swayam-logo" />
+            </a>
+          </div>
+          <div class="col-sm-9 col-xs-12">
+            <div class="top-navigation">
+              <a href="https://swayam.gov.in/about">About Swayam</a> |
+              <a href="#" onclick="event.preventDefault(); showAllCourses('');" style="cursor: pointer;">All Courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container certificate-container">
+   <iframe
+    src="certificates/The Fiction of Indian Diaspora.pdf#view=fit&toolbar=0"
+    width="100%"
+    height="627"
+    alt="Certificate Image"
+    scrolling="no"
+  ></iframe>
+  </div>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6"> &copy; 2025 SWAYAM. All rights reserved. </div>
+        <div class="col-sm-6">
+          <div class="pull-right"> Initiative by : Ministry of Education (Govt of India) </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
